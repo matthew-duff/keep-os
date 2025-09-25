@@ -1,0 +1,97 @@
+############################################
+# OS / system files
+############################################
+.DS_Store
+Thumbs.db
+
+############################################
+# Logs
+############################################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+stats.html
+stats-*.json
+
+############################################
+# Node / JS
+############################################
+node_modules/
+
+############################################
+# SvelteKit / Vite / Build Artifacts
+############################################
+.svelte-kit/
+.vite/
+dist/
+build/
+coverage/
+
+############################################
+# WXT (Web eXtension Toolkit)
+############################################
+.wxt/
+.wxt-dev-profile/
+.output/
+web-ext.config.ts
+
+############################################
+# Frontend
+############################################
+frontend/public/build/
+
+############################################
+# Environment files
+############################################
+.env
+.env.*
+!.env.example
+
+############################################
+# Editors / IDE
+############################################
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+############################################
+# Python
+############################################
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+/backend/venv
+/backend/__pycache__
+
+############################################
+# Python tooling caches
+############################################
+.ruff_cache/
+.pytype/
+
+############################################
+# Playwright (if used)
+############################################
+test-results/
+playwright-report/
+blob-report/
+
+############################################
+# Project-specific
+############################################
+.cursorrules

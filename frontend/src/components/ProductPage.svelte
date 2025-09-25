@@ -1,0 +1,2 @@
+
+<p>Product page</p>
